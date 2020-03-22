@@ -1,0 +1,47 @@
+.logo-img {
+  height: 200px;
+  width: 200px;
+  padding: 25px;
+}
+header {
+  max-width: 100%;
+  align-items: center;
+  position: sticky;
+}
+ul {
+  list-style: none;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav-bar {
+  width: 100%;
+  background-image: / images/header-image.jpg;
+}
+.sign-up-page {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.video-page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+video {
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
